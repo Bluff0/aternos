@@ -1,0 +1,21 @@
+import random 
+import pandas as pd 
+import mysql.connector
+import matplotlib.pyplot as plt
+rush=mysql.connector.connect(host="localhost",user='root',password='hsaed',database='rush_cinema')
+while(true):
+  print('**************************************************************************************')
+  print('*                                                                                    *')
+  print('*                                                                                    *')
+  print('*                                                                                    *')
+  print('*                                                                                    *')
+  print('*                                                                                    *')
+  print('*                                  LEO CINEMAS                                       *')
+  print('*                                                                                    *')
+  print('*                                                                                    *')
+  print('*                                                                                    *')
+  print('*                                                                                    *')
+  print('*                                                                                    *')
+  print('*                                                                                    *')
+  print('**************************************************************************************')
+  print('1.')
